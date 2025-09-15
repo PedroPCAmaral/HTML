@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Inscrição</title>
+</head>
+<body>
+
+    <h1>Formulário de Inscrição</h1>
+
+    <form action="#" method="post">
+        <!-- Nome -->
+        <label for="nome">Nome Completo*:</label><br>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <!-- Email -->
+        <label for="email">E-mail*:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <!-- Telefone -->
+        <label for="telefone">Telefone:</label><br>
+        <input type="tel" id="telefone" name="telefone"><br><br>
+
+        <!-- Curso de Interesse -->
+        <label for="curso">Curso de Interesse:</label><br>
+        <select name="curso" id="curso" required>
+            <option value="">Selecione...</option>
+            <option value="html">HTML Básico</option>
+            <option value="css">CSS Avançado</option>
+            <option value="javascript">JavaScript</option>
+            <option value="bootstrap">Bootstrap</option>
+        </select><br><br>
+
+        <!-- Como soube -->
+        <p>Como soube do curso?</p>
+        <input type="radio" id="amigos" name="origem" value="amigos">
+        <label for="amigos">Amigos</label><br>
+
+        <input type="radio" id="internet" name="origem" value="internet">
+        <label for="internet">Internet</label><br>
+
+        <input type="radio" id="outros" name="origem" value="outros">
+        <label for="outros">Outros</label><br><br>
+
+        <!-- Aceita receber informações -->
+        <input type="checkbox" id="informacoes" name="informacoes">
+        <label for="informacoes">Aceito receber informações por e-mail</label><br><br>
+
+        <!-- Botão de envio -->
+        <button type="submit">Enviar Inscrição</button>
+
+        
+    
+    </form>
+
+
+</body>
+</html>
