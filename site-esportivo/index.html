@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Esportes</title>
+    <!-- Bootstrap CSS via CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-4">
+        <h1>Portal de Esportes <span class="badge text-bg-primary">Novo</span></h1>
+        
+        <!-- Alertas obrigatórios -->
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            <strong>Sucesso!</strong> Palmeiras informa lesão de Evangelista e descarta contusão de Piquerez.
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+        
+        <div class="alert alert-info" role="alert">
+            <strong>Informação:</strong> Alcaraz tem espetacular atuação em Tóquio contra Nakashima.
+        </div>
+        
+        <div class="alert alert-danger" role="alert">
+            <strong>Atenção:</strong> Alcaraz sente dores após lesão e pula treino.
+        </div>
+
+        <!-- Imagens obrigatórias -->
+        <div class="row mb-4">
+            <div class="col-md-6">
+                <img src="futebol.jfif" 
+                     class="img-fluid" alt="Jogador de futebol">
+            </div>
+            <div class="col-md-6">
+                <img src="alcaraz.webp" 
+                     class="img-thumbnail" alt="Jogador de Tenis">
+            </div>
+        </div>
+
+        <!-- Botões obrigatórios -->
+        <div class="mb-4">
+            <button class="btn btn-primary">
+                Notícias <span class="badge text-bg-light">5</span>
+            </button>
+            <button class="btn btn-outline-success btn-lg">Ver Resultados</button>
+            <button class="btn btn-warning btn-sm">Classificação</button>
+        </div>
+
+        <!-- List Group obrigatório -->
+        <div class="card mb-4">
+            <div class="card-header">
+                <h5>Últimas Notícias</h5>
+            </div>
+            <div class="list-group list-group-flush">
+                <a href="#" class="list-group-item list-group-item-action active">
+                    Raniele comenta bastidores do Corinthians após pênalti desperdiçado por Yuri Alberto
+                    <span class="badge text-bg-danger">Destaque</span>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                    Popó passa por cirurgia após briga generalizada em luta contra Wanderlei Silva
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                    Bahia x Palmeiras: arbitro diz que gramado 'não apresentava boas condições'
+                </a>
+                <a href="#" class="list-group-item list-group-item-action disabled">
+                    Carrascal dá nova alternativa para Filipe Luis, brilha e pede passagem no Flamengo
+                </a>
+            </div>
+        </div>
+
+        <!-- Tabela obrigatória -->
+        <div class="table-responsive">
+            <table class="table table-striped table-bordered">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Posição</th>
+                        <th>Time</th>
+                        <th>Pontos</th>
+                        <th>Jogos</th>
+                        <th>Vitórias</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1º</td>
+                        <td>Flamengo</td>
+                        <td>54</td>
+                        <td>24</td>
+                        <td>16</td>
+                    </tr>
+                    <tr>
+                        <td>2º</td>
+                        <td>Cruzeiro</td>
+                        <td>50</td>
+                        <td>25</td>
+                        <td>15</td>
+                    </tr>
+                    <tr>
+                        <td>3º</td>
+                        <td>Palmeiras</td>
+                        <td>49</td>
+                        <td>23</td>
+                        <td>15</td>
+                    </tr>
+                    <tr>
+                        <td>4º</td>
+                        <td>Mirassol</td>
+                        <td>42</td>
+                        <td>24</td>
+                        <td>11</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS via CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
